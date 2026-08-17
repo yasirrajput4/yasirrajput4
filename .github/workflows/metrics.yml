@@ -1,0 +1,29 @@
+name: Generate GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # runs every 12 hours
+  workflow_dispatch:          # lets you trigger it manually from the Actions tab
+  push:
+    branches:
+      - main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: yasirrajput4
+          template: classic
+          base: header, activity, community, repositories, metadata
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_limit: 8
+          config_timezone: Asia/Kolkata
