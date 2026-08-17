@@ -121,30 +121,8 @@ const yasir = {
 ### 📊 GitHub Analytics
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=yasirrajput4&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" width="49%"/>
-<img src="https://streak-stats.demolab.com/?user=yasirrajput4&theme=tokyonight&hide_border=true" width="49%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yasirrajput4&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" width="49%"/>
+<img src="https://streak-stats.demolab.com/?user=yasirrajput4&theme=tokyonight&hide_border=true" width="49%"/><br/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=yasirrajput4&theme=tokyo-night&hide_border=true" width="49%"/>
-</div>
-
-<div align="center">
-
-### 🏆 Trophy Room
-<img src="https://github-profile-trophy.vercel.app/?username=yasirrajput4&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7"/>
-
-</div>
-
----
-
-<div align="center">
-
-### ✍️ Dev Wisdom of the Day
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
-
-### 🔝 Top Contributed Repository
-<img src="https://github-contributor-stats.vercel.app/api?username=yasirrajput4&limit=5&theme=dark&combine_all_yearly_contributions=true"/>
-
 </div>
 
 ---
